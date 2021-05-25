@@ -28,7 +28,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
         return new ApiInfoBuilder().title("Catálogo de Produtos API")
-                .description("API REST de um catálogo de produtos utilizando Spring Boot, MongoDB e RabbitMQ")
+                .description("API REST de um catálogo de produtos utilizando Spring Boot e SQL")
                 .version("Versão 1.0")
                 .contact(new Contact("Bianca Aguiar", "https://www.linkedin.com/in/10258964/", "biaguiar785@gmail.com"))
                 .build();
